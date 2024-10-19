@@ -113,3 +113,11 @@ fun BasicCompos(modifier: Modifier = Modifier) {
         )
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun BasicComposPreview() {
+    ComposableLayoutTheme {
+        BasicCompos()
+    }
+}
