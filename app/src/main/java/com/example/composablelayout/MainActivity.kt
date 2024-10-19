@@ -48,6 +48,8 @@ fun BasicCompos(modifier: Modifier = Modifier) {
         modifier = Modifier.fillMaxSize()
     ) {
         Text(
+            text = "Login",
+            style = TextStyle(
 
             ),
 
