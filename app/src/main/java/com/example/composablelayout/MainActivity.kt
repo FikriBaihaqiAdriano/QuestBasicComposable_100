@@ -93,3 +93,14 @@ fun BasicCompos(modifier: Modifier = Modifier) {
                 color = Color.Red
             )
         )
+
+        Text(
+            text = "20220140100",
+            style = TextStyle(
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Medium,
+                color = Color.Black
+            ),
+            modifier = Modifier.padding(top = 6.dp, bottom = 18.dp)
+        )
+
