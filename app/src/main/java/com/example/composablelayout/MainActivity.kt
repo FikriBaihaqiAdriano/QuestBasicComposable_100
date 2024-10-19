@@ -74,3 +74,13 @@ fun BasicCompos(modifier: Modifier = Modifier) {
                 .size(160.dp)
                 .clip(RoundedCornerShape(16.dp))
         )
+
+        Text(
+            text = "Nama",
+            style = TextStyle(
+                fontSize = 22.sp,
+                fontWeight = FontWeight.SemiBold,
+                color = Color(0xFF424242)
+            ),
+            modifier = Modifier.padding(top = 10.dp)
+        )
