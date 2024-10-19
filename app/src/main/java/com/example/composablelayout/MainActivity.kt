@@ -106,7 +106,10 @@ fun BasicCompos(modifier: Modifier = Modifier) {
 
         Image(
             painter = painterResource(id = R.drawable.hehe),
-
+            contentDescription = "Saia",
+            modifier = Modifier
+                .size(220.dp)
+                .clip(RoundedCornerShape(16.dp))
         )
     }
 }
