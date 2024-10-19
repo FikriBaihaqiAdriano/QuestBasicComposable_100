@@ -30,7 +30,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComposableLayoutTheme {
-                // Menggunakan Scaffold untuk struktur tata letak yang konsisten
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     BasicCompos(
                         modifier = Modifier.padding(innerPadding)
@@ -40,3 +39,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+@Composable
+fun BasicCompos(modifier: Modifier = Modifier)
