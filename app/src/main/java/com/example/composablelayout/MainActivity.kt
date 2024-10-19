@@ -56,3 +56,14 @@ fun BasicCompos(modifier: Modifier = Modifier) {
             ),
             modifier = Modifier.padding(bottom = 12.dp)
         )
+
+        Text(
+            text = "Ini adalah halaman login",
+            style = TextStyle(
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Medium,
+                color = Color(0xFF757575)
+            ),
+            modifier = Modifier.padding(bottom = 20.dp)
+        )
+
