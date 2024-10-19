@@ -84,3 +84,12 @@ fun BasicCompos(modifier: Modifier = Modifier) {
             ),
             modifier = Modifier.padding(top = 10.dp)
         )
+
+        Text(
+            text = "Fikri Baihaqi Adriano",
+            style = TextStyle(
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
+        )
