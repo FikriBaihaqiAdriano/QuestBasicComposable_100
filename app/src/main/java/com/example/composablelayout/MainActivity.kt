@@ -68,5 +68,6 @@ fun BasicCompos(modifier: Modifier = Modifier) {
         )
 
         Image(
+            painter = painterResource(id = R.drawable.umylogo),
 
         )
