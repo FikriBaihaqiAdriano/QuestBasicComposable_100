@@ -70,5 +70,7 @@ fun BasicCompos(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.umylogo),
             contentDescription = "Logo UMY",
-
+            modifier = Modifier
+                .size(160.dp)
+                .clip(RoundedCornerShape(16.dp))
         )
