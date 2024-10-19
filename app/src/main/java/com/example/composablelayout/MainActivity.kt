@@ -50,6 +50,7 @@ fun BasicCompos(modifier: Modifier = Modifier) {
         Text(
             text = "Login",
             style = TextStyle(
+                fontSize = 40.sp,
 
             ),
 
