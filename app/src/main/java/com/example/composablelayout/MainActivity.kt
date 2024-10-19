@@ -41,4 +41,13 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BasicCompos(modifier: Modifier = Modifier)
+fun BasicCompos(modifier: Modifier = Modifier) {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxSize()
+    ) {
+        Text(
+
+            ),
+
