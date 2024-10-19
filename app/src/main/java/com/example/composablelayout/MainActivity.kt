@@ -52,6 +52,6 @@ fun BasicCompos(modifier: Modifier = Modifier) {
             style = TextStyle(
                 fontSize = 40.sp,
                 fontWeight = FontWeight.ExtraBold,
-
+                color = Color(0xFF0D47A1)
             ),
 
