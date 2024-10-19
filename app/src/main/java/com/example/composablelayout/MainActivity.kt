@@ -54,4 +54,5 @@ fun BasicCompos(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.ExtraBold,
                 color = Color(0xFF0D47A1)
             ),
-
+            modifier = Modifier.padding(bottom = 12.dp)
+        )
