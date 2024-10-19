@@ -67,3 +67,6 @@ fun BasicCompos(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(bottom = 20.dp)
         )
 
+        Image(
+
+        )
